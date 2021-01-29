@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | José Deodanes</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="grupo">
+            <div class="logo">
+                José Deodanes
+            </div>
+            <i class="fa fa-bars fa-2x menu"></i>
+
+            <nav id="menu">
+                <a href="#content1">Inicio</a>
+                <a href="#content2">Habilidades</a>
+            </nav>
+
+        </div>
+    </header>
+    <section class="header-main" id="content1">
+        <div class="header-photo">
+            <img src="static/img/parson.png" alt="">
+        </div>
+        <div class="header-title">
+            <h1>DESARROLLADOR DE SOFTWARE</h1>
+            <p>José Deodanes</p>
+            Github: <a href="https://github.com/Jose-developer-start" target="__blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <section class="skills" id="content2">
+        <div class="skills-title">
+            <h2>Mis habilidades</h2>
+        </div>
+        <div class="skills-main">
+            <div class="card">
+                <div class="card-header">
+                    <img src="static/img/html5.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>HTML5</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="static/img/css3.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>CSS3</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="static/img/bootstrap.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Bootstrap 4.5</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="static/img/javascript.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>JAVASCRIPT</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="static/img/python3.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>PYTHON3</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="static/img/flask.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>FLASK</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="static/img/git.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>GIT</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+
+        <div class="redes-title">
+            <h4>Redes sociales</h4>
+        </div>
+        <div class="redes-main">
+            <div class="redes-icon">
+                <a href=""><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="redes-icon">
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="redes-icon">
+                <a target="__blank" href="https://www.youtube.com/channel/UC8P_vuVnu5QM25onibFCG6A"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{url_for('static',filename='js/jquery-3.5.1.js')}}"></script>
+    <script src="{{url_for('static',filename='js/app.js')}}"></script>
+</body>
+
+</html>
