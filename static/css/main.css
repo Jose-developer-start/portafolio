@@ -42,7 +42,7 @@ header {
 }
 
 nav {
-    display: block;
+    display: none;
     margin-top: 50px;
     position: absolute;
     background-color: #2d3638;
